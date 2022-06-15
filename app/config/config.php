@@ -1,9 +1,9 @@
 <?php
 // DB PARAMS
-define('DB_HOST', '127.0.0.2');
-define('DB_USER', 'acemtech_admin');
-define('DB_PASS', 'pb4649t2008');
-define('DB_NAME', 'acemtech_db');
+define('DB_HOST', 'localhost');
+define('DB_USER', 'db_user');
+define('DB_PASS', 'db_pass');
+define('DB_NAME', 'db_name');
 
 // APP ROOT
 define('APPROOT', dirname(dirname(__FILE__)));
