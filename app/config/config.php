@@ -1,17 +1,18 @@
 <?php
 // DB PARAMS
-define('DB_HOST', '127.0.0.2');
-define('DB_USER', 'acemtech_admin');
-define('DB_PASS', 'pb4649t2008');
-define('DB_NAME', 'acemtech_db');
+// define('DB_HOST', 'db_host');
+define('DB_USER', 'root');
+define('DB_PASS', 'root');
+define('DB_NAME', 'acemtech');
+define('DB_HOST', 'localhost');
 
 // APP ROOT
-define('APPROOT', dirname(dirname(__FILE__)));
-define ('SITE_ROOT', dirname(dirname(dirname(__FILE__))));
-
+define('APPROOT', dirname(__FILE__, 2));
+define ('SITE_ROOT', dirname(__FILE__, 3));
 
 // URL ROOT
-define('URLROOT', 'http://www.acemtech.org');
+// define('URLROOT', 'http://acemtech.org');
+define('URLROOT', '/acemtech');
 
 // SITENAME
 define('SITENAME', 'ACEM TECH');
